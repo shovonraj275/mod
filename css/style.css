@@ -1,0 +1,2156 @@
+/* reuseable css */
+
+body {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0px 120px;
+}
+
+/* reuseable css */
+
+/* all css */
+
+/* header start */
+
+section#header {
+    background: #330000;
+    border-top: 4px solid #76c38f;
+    padding: 14px 0px;
+    height: 50px;
+}
+
+section#header div.container {}
+
+section#header div.container div.logo {}
+
+section#header div.container div.logo img {}
+
+section#header div.container div.logo h6 {
+    color: #ffffff;
+}
+
+
+
+section#header div.container div.menu {
+    margin-left: 510px;
+    margin-top: -30px;
+}
+
+section#header div.container div.menu ul {}
+
+section#header div.container div.menu ul il {
+    display: inline;
+}
+
+section#header div.container div.menu ul il a {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+section#header div.container div.menu ul il a:hover {
+    background: #76c38f;
+    border-radius: 10px;
+}
+
+section#header div.container div.menu ul il a.active {
+    background: #76c38f !important;
+    border-radius: 10px;
+}
+
+/* mobile nav */
+.mobile-menu span{
+    float: right;
+    margin-top: -40px;
+    margin-right: 0px;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+.mobile-menu .OpenNAV:hover{
+	cursor: pointer;
+}
+
+.overlay{
+	width: 0;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+	overflow-x: hidden;
+	transform: 5s;
+}
+
+.overlay-content{
+	position: relative;
+	top: 5%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.overlay-content a{
+	text-decoration: none;
+	display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 1px 0;
+	color: #fff;
+}
+.overlay-content a:hover{color:green;}
+.overlay .btn-close{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	font-size: 40px;
+	color: #fff;
+}
+
+
+
+/* mobile nav */
+
+
+/* header finish */
+
+/*  banner start  */
+
+section#banner {
+    height: 510px;
+}
+
+section#banner div.slider div.container {}
+
+.bx-wrapper {
+    border: 0;
+    z-index: -1;
+}
+
+.bx-pager.bx-default-pager {
+    display: none;
+}
+
+section#banner div.container {
+    background: #330000;
+}
+
+section#banner div.slider div.container div.banner-part {
+    display: inline-flex;
+    /* position: relative; */
+    width: 100%;
+    height: 450px;
+    margin: 30px 0;
+}
+
+section#banner div.slider div.container div.banner-part div.banner-part-left {
+    width: 50%;
+    /* position: absolute; */
+    /* top: 25%; */
+}
+
+section#banner div.slider div.container div.banner-part div.banner-part-left h1 {
+    margin-top: 100px;
+    font-size: 46px;
+    color: #fff;
+}
+
+section#banner div.slider div.container div.banner-part div.banner-part-left p {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #999999;
+    width: 350px;
+}
+
+
+
+section#banner div.slider div.container div.banner-part div.banner-part-left button {
+    padding: 7px 14px;
+    border: 0;
+    margin-top: 20px;
+    background: #66cc99;
+    color: #ffffff;
+}
+
+
+section#banner div.slider div.container div.container. div.banner-part div.banner-part-left button.btn {}
+
+section#banner div.slider div.container div.banner-part div.banner-part-right {}
+
+section#banner div.slider div.container div.banner-part div.banner-part-right img {}
+
+
+
+/*  banner finish   */
+
+/* service start  */
+
+section#service {
+    background: #660000;
+    padding: 50px 0;
+}
+
+section#service div.container {}
+
+
+section#service div.container div.md-divice{
+    display: none;
+}
+
+section#service div.container div.card-part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#service div.container div.card-part div.card {
+    width: 20%;
+    margin: 0 5px;
+    background: #fff;
+    padding: 24px;
+}
+
+section#service div.container div.card-part div.card:hover {
+    background: #66cc99;
+    color: #fff !important;
+}
+
+
+section#service div.container div.card-part div.card:first-child {
+    margin-left: 0;
+}
+
+section#service div.container div.card-part div.card:last-child {
+    margin-right: 0;
+}
+
+section#service div.container div.card-part div.card img {
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+
+
+section#service div.container div.card-part div.card h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+section#service div.container div.card-part div.card p {
+    color: #999999;
+}
+
+
+
+/* service finish   */
+
+/*  recent work start  */
+
+section#recent-work {
+    padding: 20px 0;
+    background: #660000;
+    padding-bottom: 50px;
+}
+
+section#recent-work div.container {}
+
+section#recent-work div.container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background: #333333;
+    width: 281px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    font-size: 32px;
+    color: #fff;
+}
+
+
+
+
+section#recent-work div.container div.border {
+    border: 1px solid #333333;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    z-index: -1;
+}
+
+
+
+section#recent-work div.container div.gallery {}
+
+section#recent-work div.container div.gallery div.card-part {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section#recent-work div.container div.md-divice{
+    display: none;
+}
+section#recent-work div.container div.lg-divice{
+    display: block;
+}
+
+
+section#recent-work div.container div.gallery div.card-part:last-child {
+    margin-bottom: 0;
+}
+
+section#recent-work div.container div.gallery div.card-part div.card {
+    margin: 0 5px;
+    width: 33%;
+    position: relative;
+    border: 3px solid #fff;
+}
+
+section#recent-work div.container div.gallery div.card-part div.card :first-child {
+    margin-left: 0;
+}
+
+section#recent-work div.container div.gallery div.card-part div.card :last-child {
+    margin-right: 0;
+}
+
+section#recent-work div.container div.gallery div.card-part div.card a {}
+
+section#recent-work div.container div.gallery div.card-part div.card a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+section#recent-work div.container div.gallery div.card-part div.card div.card-content {
+    color: #fff;
+    position: absolute;
+    background: #000 !important;
+    bottom: 0;
+    padding: 10px;
+    width: 333px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+section#recent-work div.container div.gallery div.card-part div.card:hover div.card-content {
+    display: none;
+}
+
+
+.sl-caption.pos-bottom {
+    text-align: center !important;
+}
+
+
+/*  recent work finish   */
+
+/*   up-fotter start  */
+
+section#up-fotter {
+    background: #333333;
+    padding: 40px 0;
+}
+
+
+section#up-fotter div.container {}
+
+section#up-fotter div.container div.card-part {
+    display: inline-flex;
+}
+
+section#up-fotter div.container div.md-divice{
+    display: none;
+}
+section#up-fotter div.container div.lg-divice{
+    display: block;
+}
+section#up-fotter div.container div.card-part div.card {
+    margin: 0 5px;
+}
+
+section#up-fotter div.container div.card-part div.card:first-child {
+    margin-left: 0;
+}
+
+section#up-fotter div.container div.card-part div.card:last-child {
+    margin-right: 0;
+}
+
+section#up-fotter div.container div.card-part div.card h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+section#up-fotter div.container div.card-part div.card h6 {
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+
+section#up-fotter div.container div.card-part div.card h4 {
+    font-size: 13px;
+    color: #66cc99;
+    margin-bottom: 10px;
+}
+
+
+
+section#up-fotter div.container div.card-part div.card p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+section#up-fotter div.container div.card-part div.card:nth-child(3) p {
+    margin-bottom: 30px;
+}
+
+
+section#up-fotter div.container div.card-part div.card a {
+    color: #76c38f
+}
+
+section#up-fotter div.container div.card-part div.card:nth-child(2) a {
+    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 2px solid #404040;
+    width: 100%;
+    font-size: 13px;
+}
+
+section#up-fotter div.container div.card-part div.card input {
+    border: 0;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    background: #222222;
+}
+
+section#up-fotter div.container div.card-part div.card input::placeholder {
+    color: #989898;
+}
+
+section#up-fotter div.container div.card-part div.card textarea {
+    border: 0;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    background: #222222;
+}
+
+
+section#up-fotter div.container div.card-part div.card input.btn {
+    background: #76c38f;
+    padding: 10px 20px;
+    color: #303030;
+}
+
+
+/*   up-fotter finish   */
+
+/*   down-fotter start  */
+
+section#down-fotter {
+    background: #2b2b2b;
+    border-top: 2px solid #000;
+    padding: 20px 0;
+    color: #979797
+}
+
+section#down-fotter div.card-part {
+    display: inline-flex;
+}
+
+section#down-fotter div.card-part div.card {}
+
+section#down-fotter div.card-part div.card:last-child {
+    margin-left: 510px;
+}
+
+/*   down-fotter finish   */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    /* reuseable css */
+
+    body {}
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    /* reuseable css */
+
+    /* all css */
+
+    /* header start */
+
+    section#header {
+        background: #330000;
+        border-top: 4px solid #76c38f;
+        padding: 14px 0px;
+        height: 50px;
+    }
+
+    section#header div.container {}
+
+    section#header div.container div.logo {}
+
+    section#header div.container div.logo img {}
+
+    section#header div.container div.logo h6 {
+        color: #ffffff;
+    }
+    section#header div.container div.menu {
+    margin-left: 0;
+    margin-top: 0px;
+    }
+
+    #header .main-nav{
+        display: none;
+
+    }
+    .mobile-menu span{
+        display: block;
+    }
+
+    
+    /* header finish */
+
+    /*  banner start  */
+
+    section#banner {
+        height: 510px;
+    }
+
+    section#banner div.slider div.container {}
+
+    .bx-wrapper {
+        border: 0;
+        z-index: -1;
+    }
+
+    .bx-pager.bx-default-pager {
+        display: none;
+    }
+
+    section#banner div.container {
+        background: #330000;
+    }
+
+    section#banner div.slider div.container div.banner-part {
+        display: inline-flex;
+        /* position: relative; */
+        width: 100%;
+        height: 450px;
+        margin: 30px 0;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left {
+        width: 50%;
+        /* position: absolute; */
+        /* top: 25%; */
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left h1 {
+        margin-top: 20px;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left p {
+        margin-top: 20px;
+    font-size: 12px;
+    color: #999999;
+    width: 226px;
+    text-align: justify;
+    }
+
+
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left button {
+          padding: 7px 14px;
+        border: 0;
+        margin-top: 20px;
+        background: #66cc99;
+        color: #ffffff;
+        width: 142px;
+    }
+
+
+    section#banner div.slider div.container div.container. div.banner-part div.banner-part-left button.btn {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right img {
+        display: none;
+    }
+
+
+
+    /*  banner finish   */
+
+    /* service start  */
+
+    section#service {
+        background: #660000;
+        padding: 50px 0;
+    }
+
+    section#service div.container {}
+
+    section#service div.container div.card-part {
+        
+        display: inline-block;
+    }
+
+    section#service div.container div.card-part div.card {
+        width: 80%;
+        margin: 20px 0px;
+        background: #fff;
+        padding: 24px;
+    }
+
+    section#service div.container div.card-part div.card:hover {
+        background: #66cc99;
+        color: #fff !important;
+    }
+
+
+    section#service div.container div.card-part div.card:first-child {
+        margin-top: 0;
+    }
+
+    section#service div.container div.card-part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#service div.container div.card-part div.card img {
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+
+
+    section#service div.container div.card-part div.card h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+
+
+
+    section#service div.container div.card-part div.card p {
+        color: #999999;
+    }
+
+
+
+    /* service finish   */
+
+    /*  recent work start  */
+
+    section#recent-work {
+        padding: 20px 0;
+        background: #660000;
+        padding-bottom: 50px;
+    }
+
+    section#recent-work div.container {}
+
+    section#recent-work div.container h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background: #333333;
+        width: 262px;
+        /* margin: 0 auto; */
+        margin-bottom: 20px;
+        border-radius: 9px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+
+
+
+    section#recent-work div.container div.border {
+        border: 1px solid #333333;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        z-index: -1;
+    }
+
+
+
+    section#recent-work div.container div.gallery {}
+
+    section#recent-work div.container div.gallery div.card-part {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    section#recent-work div.container div.gallery div.card-part:last-child {
+        margin-bottom: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card {
+        margin: 20px 0px;
+        width: 100%;
+        position: relative;
+        border: 3px solid #fff;
+        height: 160px;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :first-child {
+        margin-top: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :last-child {
+        margin-bottom: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card a {}
+
+    section#recent-work div.container div.gallery div.card-part div.card a img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+
+    section#recent-work div.container div.gallery div.card-part div.card div.card-content {
+        color: #fff;
+        position: absolute;
+        background: #000 !important;
+        bottom: 0px;
+        padding: 10px;
+        width: 219px;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card:hover div.card-content {
+        display: none;
+    }
+
+
+    .sl-caption.pos-bottom {
+        text-align: center !important;
+    }
+
+
+    /*  recent work finish   */
+
+    /*   up-fotter start  */
+
+    section#up-fotter {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    section#up-fotter div.container {}
+
+    section#up-fotter div.container div.card-part {
+        display: inline-block;
+    }
+
+    section#up-fotter div.container div.card-part div.card {
+        margin: 10px 0px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:first-child {
+        margin-top: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card h3 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+
+    section#up-fotter div.container div.card-part div.card h6 {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card h4 {
+        font-size: 13px;
+        color: #66cc99;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#up-fotter div.container div.card-part div.card p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(3) p {
+        margin-bottom: 30px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card a {
+        color: #76c38f
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(2) a {
+        display: inline-block;
+        padding: 5px 0;
+        border-bottom: 2px solid #404040;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    section#up-fotter div.container div.card-part div.card input {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+        width: 100%;
+    }
+
+    section#up-fotter div.container div.card-part div.card input::placeholder {
+        color: #989898;
+    }
+
+    section#up-fotter div.container div.card-part div.card textarea {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+        width: 100%;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card input.btn {
+        background: #76c38f;
+        padding: 10px 20px;
+        color: #303030;
+    }
+
+
+    /*   up-fotter finish   */
+
+    /*   down-fotter start  */
+
+    section#down-fotter {
+        background: #2b2b2b;
+        border-top: 2px solid #000;
+        padding: 20px 0;
+        color: #979797
+    }
+
+    section#down-fotter div.card-part {
+        display: inline-block;
+    }
+
+    section#down-fotter div.card-part div.card {}
+
+    section#down-fotter div.card-part div.card:last-child {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 325px) and (max-width: 375px){
+    div.container div.gallery div.card-part div.card div.card-content{
+        width: 93.2%!important;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px){
+    div.container div.gallery div.card-part div.card div.card-content{
+        width: 94.2%!important;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* reuseable css */
+
+    body {}
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 0px 120px;
+    }
+
+    /* reuseable css */
+
+    /* all css */
+
+    /* header start */
+
+    section#header {
+        background: #330000;
+        border-top: 4px solid #76c38f;
+        padding: 14px 0px;
+        height: 50px;
+    }
+
+    section#header div.container {}
+
+    section#header div.container div.logo {}
+
+    section#header div.container div.logo img {}
+
+    section#header div.container div.logo h6 {
+        color: #ffffff;
+    }
+
+
+
+    section#header div.container div.menu {
+        margin-left: 510px;
+        margin-top: -30px;
+    }
+
+    section#header div.container div.menu ul {}
+
+    section#header div.container div.menu ul il {
+        display: inline;
+    }
+
+    section#header div.container div.menu ul il a {
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    section#header div.container div.menu ul il a:hover {
+        background: #76c38f;
+        border-radius: 10px;
+    }
+
+    section#header div.container div.menu ul il a.active {
+        background: #76c38f !important;
+        border-radius: 10px;
+    }
+
+    /* header finish */
+
+    /*  banner start  */
+
+    section#banner {
+        height: 510px;
+    }
+
+    section#banner div.slider div.container {}
+
+    .bx-wrapper {
+        border: 0;
+        z-index: -1;
+    }
+
+    .bx-pager.bx-default-pager {
+        display: none;
+    }
+
+    section#banner div.container {
+        background: #330000;
+    }
+
+    section#banner div.slider div.container div.banner-part {
+        display: inline-flex;
+        /* position: relative; */
+        width: 100%;
+        height: 450px;
+        margin: 30px 0;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left {
+        width: 50%;
+        /* position: absolute; */
+        /* top: 25%; */
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left h1 {
+        margin-top: 100px;
+        font-size: 46px;
+        color: #fff;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left p {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #999999;
+        width: 350px;
+    }
+
+
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left button {
+        padding: 7px 14px;
+        border: 0;
+        margin-top: 20px;
+        background: #66cc99;
+        color: #ffffff;
+    }
+
+
+    section#banner div.slider div.container div.container. div.banner-part div.banner-part-left button.btn {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right img {}
+
+
+
+    /*  banner finish   */
+
+    /* service start  */
+
+    section#service {
+        background: #660000;
+        padding: 50px 0;
+    }
+
+    section#service div.container {}
+
+    section#service div.container div.card-part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    section#service div.container div.card-part div.card {
+        width: 20%;
+        margin: 0 5px;
+        background: #fff;
+        padding: 24px;
+    }
+
+    section#service div.container div.card-part div.card:hover {
+        background: #66cc99;
+        color: #fff !important;
+    }
+
+
+    section#service div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#service div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#service div.container div.card-part div.card img {
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+
+
+    section#service div.container div.card-part div.card h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+
+
+
+    section#service div.container div.card-part div.card p {
+        color: #999999;
+    }
+
+
+
+    /* service finish   */
+
+    /*  recent work start  */
+
+    section#recent-work {
+        padding: 20px 0;
+        background: #660000;
+        padding-bottom: 50px;
+    }
+
+    section#recent-work div.container {}
+
+    section#recent-work div.container h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background: #333333;
+        width: 281px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 9px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+
+
+
+    section#recent-work div.container div.border {
+        border: 1px solid #333333;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        z-index: -1;
+    }
+
+
+
+    section#recent-work div.container div.gallery {}
+
+    section#recent-work div.container div.gallery div.card-part {
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section#recent-work div.container div.gallery div.card-part:last-child {
+        margin-bottom: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card {
+        margin: 0 5px;
+        width: 33%;
+        position: relative;
+        border: 3px solid #fff;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :first-child {
+        margin-left: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :last-child {
+        margin-right: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card a {}
+
+    section#recent-work div.container div.gallery div.card-part div.card a img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    section#recent-work div.container div.gallery div.card-part div.card div.card-content {
+        color: #fff;
+        position: absolute;
+        background: #000 !important;
+        bottom: 0;
+        padding: 10px;
+        width: 333px;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card:hover div.card-content {
+        display: none;
+    }
+
+
+    .sl-caption.pos-bottom {
+        text-align: center !important;
+    }
+
+
+    /*  recent work finish   */
+
+    /*   up-fotter start  */
+
+    section#up-fotter {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    section#up-fotter div.container {}
+
+    section#up-fotter div.container div.card-part {
+        display: inline-flex;
+    }
+
+    section#up-fotter div.container div.card-part div.card {
+        margin: 0 5px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card h3 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+
+    section#up-fotter div.container div.card-part div.card h6 {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card h4 {
+        font-size: 13px;
+        color: #66cc99;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#up-fotter div.container div.card-part div.card p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(3) p {
+        margin-bottom: 30px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card a {
+        color: #76c38f
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(2) a {
+        display: inline-block;
+        padding: 5px 0;
+        border-bottom: 2px solid #404040;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    section#up-fotter div.container div.card-part div.card input {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+    }
+
+    section#up-fotter div.container div.card-part div.card input::placeholder {
+        color: #989898;
+    }
+
+    section#up-fotter div.container div.card-part div.card textarea {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card input.btn {
+        background: #76c38f;
+        padding: 10px 20px;
+        color: #303030;
+    }
+
+
+    /*   up-fotter finish   */
+
+    /*   down-fotter start  */
+
+    section#down-fotter {
+        background: #2b2b2b;
+        border-top: 2px solid #000;
+        padding: 20px 0;
+        color: #979797
+    }
+
+    section#down-fotter div.card-part {
+        display: inline-flex;
+    }
+
+    section#down-fotter div.card-part div.card {}
+
+    section#down-fotter div.card-part div.card:last-child {
+        margin-left: 510px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* reuseable css */
+
+    body {}
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 0px 60px;
+    }
+
+    /* reuseable css */
+
+    /* all css */
+
+    /* header start */
+
+    section#header {
+        background: #330000;
+        border-top: 4px solid #76c38f;
+        padding: 14px 0px;
+        height: 50px;
+    }
+
+    section#header div.container {}
+
+    section#header div.container div.logo {}
+
+    section#header div.container div.logo img {}
+
+    section#header div.container div.logo h6 {
+        color: #ffffff;
+    }
+    #header .main-nav{
+        display: none;
+
+    }
+    .mobile-menu span{
+        display: block;
+    }
+
+
+
+    .mobile-menu span {
+        display: block;
+    }
+    .mobile-menu span {
+        float: right;
+        margin-top: 0px;
+        margin-right: 60px;
+        color: #fff;
+        font-size: 20px;
+        /* display: none; */
+    }
+
+
+    /* header finish */
+
+    /*  banner start  */
+
+    section#banner {
+        height: 510px;
+    }
+
+    section#banner div.slider div.container {}
+
+    .bx-wrapper {
+        border: 0;
+        z-index: -1;
+    }
+
+    .bx-pager.bx-default-pager {
+        display: none;
+    }
+
+    section#banner div.container {
+        background: #330000;
+    }
+
+    section#banner div.slider div.container div.banner-part {
+        display: inline-flex;
+        /* position: relative; */
+        width: 100%;
+        height: 450px;
+        margin: 30px 0;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left {
+        width: 50%;
+        /* position: absolute; */
+        /* top: 25%; */
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left h1 {
+        margin-top: 0px;
+    font-size: 46px;
+    color: #fff;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left p {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #999999;
+        width: 300px;
+    }
+
+
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left button {
+        padding: 7px 14px;
+        border: 0;
+        margin-top: 20px;
+        background: #66cc99;
+        color: #ffffff;
+    }
+
+
+    section#banner div.slider div.container div.container. div.banner-part div.banner-part-left button.btn {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right img {
+        width: 100%;
+        height: 80%;
+    }
+
+
+
+    /*  banner finish   */
+
+    /* service start  */
+
+    section#service {
+        background: #660000;
+        padding: 50px 0;
+    }
+
+    section#service div.container {}
+
+    section#service div.container div.lg-divice{
+        display: none;
+    }
+    section#service div.container div.md-divice{
+        display: block;
+    }
+
+    section#service div.container div.card-part {
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+   
+
+    section#service div.container div.card-part div.card {
+        width: 48%;
+        margin: 0 5px;
+        background: #fff;
+        padding: 24px;
+    }
+
+    section#service div.container div.card-part div.card:hover {
+        background: #66cc99;
+        color: #fff !important;
+    }
+
+
+    section#service div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#service div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#service div.container div.card-part div.card img {
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+
+
+
+    section#service div.container div.card-part div.card h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+
+
+
+    section#service div.container div.card-part div.card p {
+        color: #999999;
+    }
+
+
+
+    /* service finish   */
+
+    /*  recent work start  */
+
+    section#recent-work {
+        padding: 20px 0;
+        background: #660000;
+        padding-bottom: 50px;
+    }
+
+    section#recent-work div.container {}
+
+    section#recent-work div.container h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background: #333333;
+        width: 281px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 9px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+
+
+
+    section#recent-work div.container div.border {
+        border: 1px solid #333333;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        z-index: -1;
+    }
+
+
+
+    section#recent-work div.container div.gallery {}
+
+    section#recent-work div.container div.gallery div.card-part {
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section#recent-work div.container div.lg-divice{
+        display: none;
+    }
+    section#recent-work div.container div.md-divice{
+        display: block;
+    }
+    section#recent-work div.container div.gallery div.card-part:last-child {
+        margin-bottom: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card {
+        margin: 0 5px;
+        width: 48%;
+        position: relative;
+        border: 3px solid #fff;
+    }
+
+    
+
+    section#recent-work div.container div.gallery div.card-part div.card a {}
+
+    section#recent-work div.container div.gallery div.card-part div.card a img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    section#recent-work div.container div.gallery div.card-part div.card div.card-content {
+        color: #fff;
+        position: absolute;
+        background: #000 !important;
+        bottom: 0;
+        padding: 10px;
+        width: 288px;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card:hover div.card-content {
+        display: none;
+    }
+
+
+    .sl-caption.pos-bottom {
+        text-align: center !important;
+    }
+
+
+    /*  recent work finish   */
+
+    /*   up-fotter start  */
+
+    section#up-fotter {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    section#up-fotter div.container {}
+
+    section#up-fotter div.container div.card-part {
+        display: inline-flex;
+    margin-bottom: 15px;
+    }
+    
+    section#up-fotter div.container div.lg-divice{
+        display: none;
+    }
+    section#up-fotter div.container div.md-divice{
+        display: block;
+    }
+
+    section#up-fotter div.container div.card-part div.card {
+        margin: 0 5px;
+        width: 48%;
+        margin: 5px 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card h3 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+
+    section#up-fotter div.container div.card-part div.card h6 {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card h4 {
+        font-size: 13px;
+        color: #66cc99;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#up-fotter div.container div.card-part div.card p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(3) p {
+        margin-bottom: 30px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card a {
+        color: #76c38f
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(2) a {
+        display: inline-block;
+        padding: 5px 0;
+        border-bottom: 2px solid #404040;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    section#up-fotter div.container div.card-part div.card input {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+        width: 90%;
+    }
+
+    section#up-fotter div.container div.card-part div.card input::placeholder {
+        color: #989898;
+    }
+
+    section#up-fotter div.container div.card-part div.card textarea {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+        width: 90%;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card input.btn {
+        background: #76c38f;
+        padding: 10px 20px;
+        color: #303030;
+        width: 45%;
+    }
+
+
+    /*   up-fotter finish   */
+
+    /*   down-fotter start  */
+
+    section#down-fotter {
+        background: #2b2b2b;
+        border-top: 2px solid #000;
+        padding: 20px 0;
+        color: #979797
+    }
+
+    section#down-fotter div.card-part {
+        display: inline-flex;
+    }
+
+    section#down-fotter div.card-part div.card {}
+
+    section#down-fotter div.card-part div.card:last-child {
+        margin-left: 70px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* reuseable css */
+
+    body {}
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 0px 120px;
+    }
+
+    /* reuseable css */
+
+    /* all css */
+
+    /* header start */
+
+    section#header {
+        background: #330000;
+        border-top: 4px solid #76c38f;
+        padding: 14px 0px;
+        height: 50px;
+    }
+
+    section#header div.container {}
+
+    section#header div.container div.logo {}
+
+    section#header div.container div.logo img {}
+
+    section#header div.container div.logo h6 {
+        color: #ffffff;
+    }
+
+
+
+    section#header div.container div.menu {
+        margin-left: 510px;
+        margin-top: -30px;
+    }
+
+    section#header div.container div.menu ul {}
+
+    section#header div.container div.menu ul il {
+        display: inline;
+    }
+
+    section#header div.container div.menu ul il a {
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    section#header div.container div.menu ul il a:hover {
+        background: #76c38f;
+        border-radius: 10px;
+    }
+
+    section#header div.container div.menu ul il a.active {
+        background: #76c38f !important;
+        border-radius: 10px;
+    }
+
+    /* header finish */
+
+    /*  banner start  */
+
+    section#banner {
+        height: 510px;
+    }
+
+    section#banner div.slider div.container {}
+
+    .bx-wrapper {
+        border: 0;
+        z-index: -1;
+    }
+
+    .bx-pager.bx-default-pager {
+        display: none;
+    }
+
+    section#banner div.container {
+        background: #330000;
+    }
+
+    section#banner div.slider div.container div.banner-part {
+        display: inline-flex;
+        /* position: relative; */
+        width: 100%;
+        height: 450px;
+        margin: 30px 0;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left {
+        width: 50%;
+        /* position: absolute; */
+        /* top: 25%; */
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left h1 {
+        margin-top: 100px;
+        font-size: 46px;
+        color: #fff;
+    }
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left p {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #999999;
+        width: 350px;
+    }
+
+
+
+    section#banner div.slider div.container div.banner-part div.banner-part-left button {
+        padding: 7px 14px;
+        border: 0;
+        margin-top: 20px;
+        background: #66cc99;
+        color: #ffffff;
+    }
+
+
+    section#banner div.slider div.container div.container. div.banner-part div.banner-part-left button.btn {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right {}
+
+    section#banner div.slider div.container div.banner-part div.banner-part-right img {}
+
+
+
+    /*  banner finish   */
+
+    /* service start  */
+
+    section#service {
+        background: #660000;
+        padding: 50px 0;
+    }
+
+    section#service div.container {}
+
+    section#service div.container div.card-part {
+        display: inline-flex;
+    }
+
+    section#service div.container div.card-part div.card {
+        width: 20%;
+        margin: 0 5px;
+        background: #fff;
+        padding: 24px;
+    }
+
+    section#service div.container div.card-part div.card:hover {
+        background: #66cc99;
+        color: #fff !important;
+    }
+
+
+    section#service div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#service div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#service div.container div.card-part div.card img {
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+
+
+    section#service div.container div.card-part div.card h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+
+
+
+    section#service div.container div.card-part div.card p {
+        color: #999999;
+    }
+
+
+
+    /* service finish   */
+
+    /*  recent work start  */
+
+    section#recent-work {
+        padding: 20px 0;
+        background: #660000;
+        padding-bottom: 50px;
+    }
+
+    section#recent-work div.container {}
+
+    section#recent-work div.container h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background: #333333;
+        width: 281px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 9px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+
+
+
+    section#recent-work div.container div.border {
+        border: 1px solid #333333;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        z-index: -1;
+    }
+
+
+
+    section#recent-work div.container div.gallery {}
+
+    section#recent-work div.container div.gallery div.card-part {
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section#recent-work div.container div.gallery div.card-part:last-child {
+        margin-bottom: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card {
+        margin: 0 5px;
+        width: 33%;
+        position: relative;
+        border: 3px solid #fff;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :first-child {
+        margin-left: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card :last-child {
+        margin-right: 0;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card a {}
+
+    section#recent-work div.container div.gallery div.card-part div.card a img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    section#recent-work div.container div.gallery div.card-part div.card div.card-content {
+        color: #fff;
+        position: absolute;
+        background: #000 !important;
+        bottom: 0;
+        padding: 10px;
+        width: 333px;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    section#recent-work div.container div.gallery div.card-part div.card:hover div.card-content {
+        display: none;
+    }
+
+
+    .sl-caption.pos-bottom {
+        text-align: center !important;
+    }
+
+
+    /*  recent work finish   */
+
+    /*   up-fotter start  */
+
+    section#up-fotter {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    section#up-fotter div.container {}
+
+    section#up-fotter div.container div.card-part {
+        display: inline-flex;
+    }
+
+    section#up-fotter div.container div.card-part div.card {
+        margin: 0 5px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#up-fotter div.container div.card-part div.card h3 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+
+    section#up-fotter div.container div.card-part div.card h6 {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card h4 {
+        font-size: 13px;
+        color: #66cc99;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#up-fotter div.container div.card-part div.card p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(3) p {
+        margin-bottom: 30px;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card a {
+        color: #76c38f
+    }
+
+    section#up-fotter div.container div.card-part div.card:nth-child(2) a {
+        display: inline-block;
+        padding: 5px 0;
+        border-bottom: 2px solid #404040;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    section#up-fotter div.container div.card-part div.card input {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+    }
+
+    section#up-fotter div.container div.card-part div.card input::placeholder {
+        color: #989898;
+    }
+
+    section#up-fotter div.container div.card-part div.card textarea {
+        border: 0;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 3px;
+        background: #222222;
+    }
+
+
+    section#up-fotter div.container div.card-part div.card input.btn {
+        background: #76c38f;
+        padding: 10px 20px;
+        color: #303030;
+    }
+
+
+    /*   up-fotter finish   */
+
+    /*   down-fotter start  */
+
+    section#down-fotter {
+        background: #2b2b2b;
+        border-top: 2px solid #000;
+        padding: 20px 0;
+        color: #979797
+    }
+
+    section#down-fotter div.card-part {
+        display: inline-flex;
+    }
+
+    section#down-fotter div.card-part div.card {}
+
+    section#down-fotter div.card-part div.card:last-child {
+        margin-left: 510px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
